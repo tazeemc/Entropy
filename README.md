@@ -1,3 +1,24 @@
+<h1>PowerShell Algorithmic Trading System</h1>
+
+<p>This repository contains a PowerShell implementation of an algorithmic trading system that focuses on market temperature, entropy, and technical indicators to generate trading signals. The system builds upon concepts from traditional technical analysis while incorporating more advanced statistical measures of market conditions.</p>
+
+<h2>Features</h2>
+<ul>
+    <li>Real-time market data retrieval via Yahoo Finance API</li>
+    <li>Market temperature model (volatility-based risk assessment)</li>
+    <li>Entropy calculation for measuring market predictability</li>
+    <li>Position sizing algorithm based on multiple factors</li>
+    <li>Technical indicators including moving averages, RSI, and momentum</li>
+    <li>Customizable parameters for different market conditions</li>
+</ul>
+
+<h2>Getting Started</h2>
+<p>To use this system, download the TradingSystem.ps1 script and run it with PowerShell:</p>
+<pre><code>.\TradingSystem.ps1 -symbol "MSFT" -baseTemp 25.0 -maxHeat 80.0 -initialEquity 100000.0</code></pre>
+
+<hr>
+
+
 <h1> Algorithmic Trading with Python </h1>
 
 The following repo is based on the final project of the course "Algorithmic Trading" taught at Hult International Business School by professor Michael Rolleigh. The goal is to backtest a trading algorithm that receives the output from a machine learning model as a signal to perform the strategy. Please find the final results in <span style="color: #333399;"><strong><a style="color: #333399;" href="https://github.com/dieko95/AlgoTrading/blob/master/Algorithmic%20Trading%20in%20Python.pdf">Algorithmic Trading in Python.pdf</a></strong></span>
